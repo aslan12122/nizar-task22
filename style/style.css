@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(41, 41, 77);
+}
+
+.div1{
+    width:250px;
+    height: 250px;
+    background-color: blue;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-duration: 3s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    background-image: url(../Images/img4.jpg);
+    background-size: cover;
+    
+
+}
+@keyframes change{
+    0%{background-color: red; left: 0;}
+    100%{background-color: aqua;left: 1270px;}
+}
+.div2{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-name: dirar;
+    margin-top: 260px;
+    position: absolute;
+    left: 1270px;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    background-image: url(../Images/BMW.jpeg);
+    background-size: cover;
+}
+@keyframes dirar{
+    0%{background-color: red; left: 0;}
+    100%{background-color: aqua; left: 1270px;}
+}
+
+.div3{
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    margin-top: 520px;
+    position: absolute;
+    animation-fill-mode: forwards;
+    background-image: url(../Images/g1\,63.jpeg);
+    background-size: cover;
+    
+
+}
+@keyframes change{
+    0%{background-color: red; left: 0;}
+    100%{background-color: aqua;left: 1270px;}
+}
+.div4{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(238, 255, 0);
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-name:  change;
+    margin-top: 780px;
+    position: absolute;
+    left: 1270px;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    background-image: url(../Images/78.jpeg);
+    background-size: cover;
+}
+@keyframes  change{
+    0%{background-color: red; left: 0;}
+    100%{background-color: aqua; left: 1270px;}
+}
+.div5{
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    margin-top: 1040px;
+    position: absolute;
+    animation-fill-mode: forwards;
+    background-image: url(../Images/mars.jpeg);
+    background-size: cover;
+    
+
+}
+@keyframes change{
+    0%{background-color: red; left: 0;}
+    100%{background-color: aqua;left: 1270px;}
+}
+.div6{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(238, 255, 0);
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-name:  change;
+    margin-top: 1300px;
+    position: absolute;
+    left: 1270px;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    background-image: url(../Images/rmp.jpeg);
+    background-size: cover;
+}
+@keyframes  change{
+    0%{background-color: red; left: 0;}
+    100%{background-color: aqua; left: 1270px;}
+}
